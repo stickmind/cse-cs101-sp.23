@@ -1,0 +1,24 @@
+items:
+- url: /
+  name: 主页
+  icon_class: fa fa-house
+
+- url: /schedule/
+  name: 日程
+  icon_class: fas fa-calendar-days
+
+- url: /lectures/
+  name: 课程
+  icon_class: fas fa-book-reader
+
+- url: /assignments/
+  name: 作业
+  icon_class: fas fa-user-graduate
+
+- url: /materials/
+  name: 资源
+  icon_class: fas fa-book
+
+- url: /enroll/
+  name: 报名
+  icon_class: fas fa-book

@@ -1,0 +1,54 @@
+# Site settings
+course_name: CSE/CS101：C++ 编程抽象思维
+course_description: ""
+course_semester: "Spring 2023"
+
+baseurl: ""
+url: "http://stickmind.github.io"
+
+schoolname: "StickMind"
+schoolurl: "https://www.stickmind.com"
+github_username: stickmind
+
+address: |
+    本系列课程
+    由薛浩和汪洋联合推出
+    洋和朋友们的计算咨询（武汉）有限公司
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+timezone: Asia/Shanghai
+dateformat: "%Y/%m/%d %H:%M"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
+
+livereload: true

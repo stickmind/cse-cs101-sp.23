@@ -1,0 +1,10 @@
+<div class="col col-1" style="color: #8a6d3b ;font-weight: bold;" data-label="Event">截止日期</div>
+<div class="col col-1-2" style="font-weight: bold" data-label="日期">
+    {{ event.date | date: site.dateformat }}
+    <br class="date-spliter" />{{ event.date | date: "%A" }}
+</div>
+<div class="col col-2" style="font-weight: bold" data-label="描述">
+    {{ include.event.description }}
+</div>
+<div class="col col-4" data-label="Course Material">
+</div>

@@ -8,7 +8,8 @@ url: "http://stickmind.github.io"
 
 schoolname: "StickMind"
 schoolurl: "https://www.stickmind.com"
-github_username: stickmind
+courseurl: "https://cs102.stickmind.com"
+#github_username: stickmind
 
 address: |
     本系列课程

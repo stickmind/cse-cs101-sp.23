@@ -14,5 +14,6 @@ links:
 
 **推荐阅读：**
 
+- Textbook, Ch 2
 - [Stepwise Refinement](https://learnlearn.uk/alevelcs/stepwise-refinement/){:target="_blank"}, LearnLearn
 <!-- - [Creating a C++ library with CMake](https://decovar.dev/blog/2021/03/08/cmake-cpp-library/) -->

@@ -10,6 +10,9 @@ title: page.title
   </header>
 
   <div>
+    {% if page.points %}
+    <span style="font-weight: bold">作业分数：{{ page.points }} 分</span><br>
+    {% endif %}
     {% if page.due_event %}
     <span style="font-weight: bold">截止日期：{{ page.due | date: site.dateformat }}{{ page.due_event.date | date: "%Y/%m/%d %H:%M" }}</span>
     {% endif %}
@@ -18,10 +21,10 @@ title: page.title
       [<a href="{{ page.pdf | prepend: site.baseurl }}">作业说明</a>]
       {% endif %}
       {% if page.attachment %}
-      [<a href="{{ page.attachment | prepend: site.baseurl }}">attachment</a>]
+      [<a href="{{ page.attachment | prepend: site.baseurl }}">附件</a>]
       {% endif %}
       {% if page.solutions %}
-      [<a href="{{ page.solutions | prepend: site.baseurl }}">solutions</a>]
+      [<a href="{{ page.solutions | prepend: site.baseurl }}">参考答案</a>]
       {% endif %}
     </p>
 

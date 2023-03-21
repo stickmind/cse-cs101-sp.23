@@ -63,6 +63,15 @@
           </li>
           {% endif %}
 
+          {% if site.courseurl %}
+          <li>
+            <a href="{{site.courseurl}}" target="_blank">
+              <i class="fas fa-globe" style="color:gray"></i> {{site.courseurl | remove: "https://" | remove: "http://"
+              | remove: "www." }}
+            </a>
+          </li>
+          {% endif %}
+
         </ul>
       </div>
     </div>

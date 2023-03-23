@@ -15,3 +15,4 @@ links:
 **推荐阅读：**
 
 - Textbook, Ch 5.4~5.6
+- [Word Unscrambler](https://unscramble.org/){:target="_blank"}

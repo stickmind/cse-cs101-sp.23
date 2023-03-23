@@ -4,13 +4,13 @@ date: 2023-3-21T19:30:00+08:00
 title: 第 3 次课. Control Structures
 tldr: "介绍 C++ 控制结构——计算机是如何做选择的？"
 hide_from_announcments: false
-# thumbnail: /static_files/presentations/lec.jpg
+thumbnail: /static_files/presentations/lect_03.png
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcnHL0hCMzjsn5UbFTWXsbDQh
       name: 录播(sRv9)
     - url: /static_files/presentations/lect_03.pdf
       name: 讲义
-    - url: /static_files/lect_codes/lect-03-code.zip
+    - url: /static_files/lect_codes/lect-03-code.7z
       name: 代码
 ---
 

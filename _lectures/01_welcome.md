@@ -3,7 +3,7 @@ type: lecture
 date: 2023-3-14T19:30:00+08:00
 title: 第 1 次课. Welcome
 tldr: "介绍课程相关内容，开发环境，编程语言等——为什么学习计算机编程？"
-# thumbnail: /static_files/presentations/lec.jpg
+thumbnail: /static_files/presentations/lect_01.png
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcnkkMVB04UrJS0wg63JglnFh
       name: 录播(xcrC)

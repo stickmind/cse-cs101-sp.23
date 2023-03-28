@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Language" content="en-us">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<script type="text/javascript" src="assets/js/WordLadders/words.js"></script>
+	<script type="text/javascript" src="assets/js/WordLadders/adapter.js"></script>
+	<script type="text/javascript" src="assets/js/WordLadders/queue.js"></script>
+	<script type="text/javascript" src="assets/js/WordLadders/ladder.js"></script>
+
+	<title>Word Ladders</title>
+	<style type="text/css">
+		#htmlToothbrush #bodyToothbrush .parentToothbrush .bilibili-player-video {
+			margin: 0 !important;
+		}
+
+		#htmlToothbrush,
+		#bodyToothbrush {
+			overflow: hidden !important;
+			zoom: 100% !important;
+		}
+
+		#htmlToothbrush #bodyToothbrush .parentToothbrush {
+			overflow: visible !important;
+			z-index: auto !important;
+			transform: none !important;
+			-webkit-transform-style: flat !important;
+			transition: none !important;
+			contain: none !important;
+		}
+
+		#htmlToothbrush #bodyToothbrush .absoluteToothbrush {
+			position: absolute !important;
+		}
+
+		#htmlToothbrush #bodyToothbrush .playerToothbrush {
+			position: fixed !important;
+			top: 0px !important;
+			left: 0px !important;
+			width: 100vw !important;
+			height: 100vh !important;
+			max-width: none !important;
+			max-height: none !important;
+			min-width: 0 !important;
+			min-height: 0 !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			z-index: 2147483646 !important;
+			border: none !important;
+			background-color: #000 !important;
+			transform: none !important;
+		}
+
+		#htmlToothbrush #bodyToothbrush .parentToothbrush video {
+			object-fit: contain !important;
+		}
+
+		#htmlToothbrush #bodyToothbrush .parentToothbrush .videoToothbrush {
+			width: 100vw !important;
+			height: 100vh !important;
+		}
+
+		#playerControlBtn {
+			text-shadow: none;
+			visibility: hidden;
+			opacity: 0;
+			display: none;
+			transition: all 0.5s ease;
+			cursor: pointer;
+			font: 12px "微软雅黑";
+			margin: 0;
+			width: 64px;
+			height: 20px;
+			line-height: 20px;
+			border: none;
+			text-align: center;
+			position: fixed;
+			z-index: 2147483647;
+			background-color: #27A9D8;
+			color: #FFF;
+		}
+
+		#playerControlBtn:hover {
+			visibility: visible;
+			opacity: 1;
+			background-color: #2774D8;
+		}
+
+		#picinpicBtn {
+			text-shadow: none;
+			visibility: hidden;
+			opacity: 0;
+			display: none;
+			transition: all 0.5s ease;
+			cursor: pointer;
+			font: 12px "微软雅黑";
+			margin: 0;
+			width: 53px;
+			height: 20px;
+			line-height: 20px;
+			border: none;
+			text-align: center;
+			position: fixed;
+			z-index: 2147483647;
+			background-color: #27A9D8;
+			color: #FFF;
+		}
+
+		#picinpicBtn:hover {
+			visibility: visible;
+			opacity: 1;
+			background-color: #2774D8;
+		}
+
+		#leftFullStackButton {
+			display: none;
+			position: fixed;
+			width: 1px;
+			height: 100vh;
+			top: 0;
+			left: 0;
+			z-index: 2147483647;
+			background: #000;
+		}
+
+		#rightFullStackButton {
+			display: none;
+			position: fixed;
+			width: 1px;
+			height: 100vh;
+			top: 0;
+			right: 0;
+			z-index: 2147483647;
+			background: #000;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="text-align: center;">
+		<!-- <h1> Word Ladders </h1> -->
+		<div style="width: 500px; text-align: left; margin-left: auto; margin-right:auto;">
+			<p>
+				词梯是一个单词序列，每个单词都与前一个单词仅有一个字母之差。例如：
+			</p>
+			<p>
+				cat → cot → dot → dog
+			</p>
+			<p>
+				在下方输入两个单词，点击“Find”按钮，就可以生成一个词梯。
+			</p>
+			<p>
+				Enjoy!
+			</p>
+		</div>
+		<form
+			style="margin-left: auto; margin-right: auto; border: 1px solid black; text-align: center; width:250px; padding: 10px; background-color:#ffffc0;">
+			<input id="start" type="text" size="20" style="width:200px;"> <br>
+			<input id="end" type="text" size="20" style="width:200px;"> <br>
+			<input type="submit" value="Find" onclick="launchWordLadder(); return false">
+		</form>
+		<p id="display"> </p>
+	</div>
+
+
+	<tbdiv id="picinpicBtn"></tbdiv>
+	<tbdiv id="playerControlBtn"></tbdiv>
+	<tbdiv id="leftFullStackButton"></tbdiv>
+	<tbdiv id="rightFullStackButton"></tbdiv>
+</body>
+
+</html>

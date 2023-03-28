@@ -6,7 +6,7 @@ tldr: "介绍课程相关内容，开发环境，编程语言等——为什么�
 thumbnail: /static_files/presentations/lect_01.png
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcnkkMVB04UrJS0wg63JglnFh
-      name: 录播(xcrC)
+      name: 录播(公开)
     - url: /static_files/presentations/lect_01.pdf
       name: 讲义
     - url: /static_files/lect_codes/lect-01-code.zip

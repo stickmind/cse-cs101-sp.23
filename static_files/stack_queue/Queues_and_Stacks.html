@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Queues and Stacks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/bootstrap/5.2.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/datacanvas.css">
+</head>
+
+<body class="mb-3">
+  <article class="container py-4">
+    <!-- <header class="mb-4">
+      <h1 class="text-dark">Queues and Stacks</h1>
+    </header> -->
+
+    <!-- Data Structure Visualization -->
+    <div class="center mt-2" style="width: 100%;">
+      <!-- Buttons for data structures -->
+      <nav class="center data-canvas btn-group">
+        <button type="button" class="btn btn-lg btn-light active" id="stackButton"> Stack </button>
+        <button type="button" class="btn btn-lg btn-light" id="queueButton"> Queue </button>
+      </nav>
+    </div>
+
+    <!-- stack inputs -->
+    <div class="center mt-2" id="stackInputs" style="display: flex;">
+      <div class="center" style="width: 80%;">
+        <!-- data input -->
+        <div class="input-group flex-item" style="width: auto;">
+          <div class="input-group-prepend">
+            <span class="input-group-text ">Data</span>
+          </div>
+          <input type="text" class="form-control" value="myData" id="stackData">
+        </div>
+        <!-- push and pop -->
+        <div class="flex-item">
+          <button type="button" class="btn btn-primary" id="push">Push</button>
+        </div>
+        <div class="flex-item">
+          <button type="button" class="btn btn-success" id="pop">Pop</button>
+        </div>
+        <!-- bounce checkbox -->
+        <div class="input-group flex-item myHide" style="width: auto;">
+          <div class="input-group-prepend">
+            <span class="input-group-text ">
+              <input type="checkbox" name="bounce" id="bounce">
+            </span>
+          </div>
+          <div class="input-group-append">
+            <span class="input-group-text ">Bounce</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- queue inputs -->
+    <div class="center mt-2 myHide" id="queueInputs" style="display: none;">
+      <div class="center" style="width: 80%;">
+        <!-- data input -->
+        <div class="input-group flex-item" style="width: auto;">
+          <div class="input-group-prepend">
+            <span class="input-group-text ">Data</span>
+          </div>
+          <input type="text" class="form-control" value="myData" id="queueData">
+        </div>
+        <!-- enqueue and dequeue -->
+        <div class="flex-item">
+          <button type="button" class="btn btn-primary" id="enqueue">Enqueue</button>
+        </div>
+        <div class="flex-item">
+          <button type="button" class="btn btn-success" id="dequeue">Dequeue</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="center" id="container">
+      <!-- stack animation  -->
+      <div id="stackAnimation" class="text-center" style="display: inline-flex;"></div>
+      <!-- queue animation -->
+      <div id="queueAnimation" class="myHide text-center" style="display: none;"></div>
+    </div>
+
+    <script type="text/javascript" src="./assets/js/SVG.js"></script>
+    <script type="text/javascript" src="./assets/js/svg.easing.min.js"></script>
+    <script type="text/javascript" src="./assets/js/queue.js"></script>
+    <script type="text/javascript" src="./assets/js/stack.js"></script>
+    <script type="text/javascript" src="./assets/js/datacanvas.js"></script>
+  </article>
+
+</body>
+
+</html>

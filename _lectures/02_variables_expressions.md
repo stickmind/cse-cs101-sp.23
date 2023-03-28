@@ -7,7 +7,7 @@ hide_from_announcments: false
 thumbnail: /static_files/presentations/lect_02.png
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcnzxO3mrUgYu9Y5wiF9kb5hd
-      name: 录播(NKBL)
+      name: 录播(公开)
     - url: /static_files/presentations/lect_02.pdf
       name: 讲义
     - url: /static_files/lect_codes/lect-02-code.zip

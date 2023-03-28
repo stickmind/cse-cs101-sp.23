@@ -1,0 +1,91 @@
+.data-canvas-tite {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Ubuntu';
+}
+h2.data-canvas {
+  font-size: 80px;
+  font-family: 'Gloria Hallelujah';
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+h3.welcome-to {
+  font-size: 30px;
+  font-family: 'Roboto Slab';
+}
+nav.data-canvas {
+  font-size: 15px;
+  font-family: monospace;
+  margin-left: auto;
+  margin-right: auto;
+}
+.data-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 60%;
+}
+.nav-item .dropdown-item {
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.dropdown-menu {
+  text-align: justify;
+}
+.myHide {
+  display: none;
+}
+.flex-item {
+  padding: 5px;
+}
+.addon-outline {
+  border: 1px solid transparent;
+  border-color: #695548;
+  background-image: none;
+  background-color: transparent;
+  color: #695548;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #3291cd;
+  }
+  10% {
+    color: #30b038;
+  }
+  20% {
+    color: #de9425;
+  }
+  30% {
+    color: #e75252;
+  }
+  40% {
+    color: #8b87e9;
+  }
+  50% {
+    color: #b654f2;
+  }
+  60% {
+    color: #48c449;
+  }
+  70% {
+    color: #29d2a5;
+  }
+  80% {
+    color: #deb922;
+  }
+  90% {
+    color: #32ad0d;
+  }
+  100% {
+    color: #df3c86;
+  }
+}

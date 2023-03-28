@@ -7,7 +7,7 @@ hide_from_announcments: false
 thumbnail: /static_files/presentations/lect_04.gif
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcneYZl1N5eNvtMmDQafi4zCE
-      name: 录播(yMez)
+      name: 录播(公开)
     - url: /static_files/presentations/lect_04.pdf
       name: 讲义
     - url: /static_files/lect_codes/lect-04-code.7z

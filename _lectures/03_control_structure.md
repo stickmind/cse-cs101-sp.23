@@ -7,7 +7,7 @@ hide_from_announcments: false
 thumbnail: /static_files/presentations/lect_03.png
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcnHL0hCMzjsn5UbFTWXsbDQh
-      name: 录播(sRv9)
+      name: 录播(公开)
     - url: /static_files/presentations/lect_03.pdf
       name: 讲义
     - url: /static_files/lect_codes/lect-03-code.7z

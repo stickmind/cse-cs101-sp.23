@@ -3,7 +3,7 @@ type: lecture
 date: 2023-5-16T19:30:00+08:00
 title: 第 12 次课. Sorting Algorithm
 tldr: "介绍常见排序算法。"
-hide_from_announcments: false
+hide_from_announcments: true
 thumbnail: /static_files/presentations/lect_12.jpg
 links:
     - url: https://h8pqt7tpdf.feishu.cn/drive/folder/fldcn2CvnaJDXV6ZIjPGVVSacrd

@@ -3,7 +3,7 @@ type: assignment
 date: 2023-6-2T09:00:00+08:00
 title: '作业 6. Binary Heap'
 tldr: "本次作业是对话题 5 的总结，目的是练习动态数组和二叉堆数据结构。"
-hide_from_announcments: false
+hide_from_announcments: true
 points: 15
 due_event:
     type: due

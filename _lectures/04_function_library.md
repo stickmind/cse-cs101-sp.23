@@ -3,7 +3,7 @@ type: lecture
 date: 2023-3-23T19:30:00+08:00
 title: 第 4 次课. Functions and Libraries
 tldr: "介绍 C++ 函数以及接口的实现——计算机是如何实现抽象的？"
-hide_from_announcments: false
+hide_from_announcments: true
 thumbnail: /static_files/presentations/lect_04.gif
 links:
     - url: https://h8pqt7tpdf.feishu.cn/file/boxcneYZl1N5eNvtMmDQafi4zCE

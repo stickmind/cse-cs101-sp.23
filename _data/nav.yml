@@ -11,18 +11,18 @@ items:
   name: 课程
   icon_class: fas fa-book-reader
 
-- url: /sections/
-  name: 回顾
-  icon_class: fas fa-graduation-cap
+# - url: /sections/
+#   name: 回顾
+#   icon_class: fas fa-graduation-cap
 
-- url: /assignments/
-  name: 作业
-  icon_class: fas fa-user-graduate
+# - url: /assignments/
+#   name: 作业
+#   icon_class: fas fa-user-graduate
 
 - url: /materials/
   name: 资源
   icon_class: fas fa-book
 
-# - url: /enroll/
-#   name: 报名
-#   icon_class: fas fa-book
+- url: /enroll/
+  name: 报名
+  icon_class: fas fa-book

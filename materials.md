@@ -18,6 +18,8 @@ permalink: /materials/
 
 ## 其他资源
 
+<!-- 
+
 ### 数据结构和算法分析补充材料
 
 如果对数据结构和算法分析内容仍有更多的兴趣，可以进一步探索。
@@ -40,4 +42,11 @@ C++ 是一门**严肃**编程语言。读完上面两本书，如果你赞同 C+
 最后还有一些编程规范和设计相关的条款，适合放在案头，随手翻阅。
 - 《[Effective Modern C++](https://book.douban.com/subject/30178902/){:target="_blank"}》
 - 《[Effective C++](https://book.douban.com/subject/5387403/){:target="_blank"}》
-- 《[C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines){:target="_blank"}》
+
+<!-- - 教材示例代码：[Textbook Source Code](https://github.com/xuehao/Programming-Abstractions-in-Cpp){:target="_blank"}, 不定期更新
+- 教材库文档：[The SimpleCxxLib library](https://cppdoc.stickmind.com/){:target="_blank"}, a fork from the Stanford C++ libraries -->
+
+- 斯坦福 C++ 库文档：[The Stanford libcs106 library](https://web.stanford.edu/dept/cs_edu/resources/cslib_docs/){:target="_blank"}
+- C++ 在线文档：[cplusplus.com](https://cplusplus.com/reference/){:target="_blank"}（可读性较好）\|  [cppreference.com](https://en.cppreference.com/w/){:target="_blank"}（内容较新）
+- CMake 简明教程：[An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/){:target="_blank"}
+- 编程规范：[C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines){:target="_blank"}

@@ -3,7 +3,7 @@ type: assignment
 date: 2023-6-9T09:00:00+08:00
 title: '作业 7. Huffman Coding'
 tldr: "本次作业是对话题 5 的总结，目的是练习二叉搜索树和哈夫曼编码。"
-hide_from_announcments: false
+hide_from_announcments: true
 points: 15
 due_event:
     type: due

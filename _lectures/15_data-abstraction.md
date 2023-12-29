@@ -3,7 +3,7 @@ type: lecture
 date: 2023-5-25T19:30:00+08:00
 title: 第 15 次课. Data Abstraction, Class
 tldr: "介绍数据抽象实现 List 类，补充用对象管理资源的思想"
-hide_from_announcments: false
+hide_from_announcments: true
 thumbnail: /static_files/presentations/lect_15.png
 links:
     - url: https://h8pqt7tpdf.feishu.cn/drive/folder/fldcn2CvnaJDXV6ZIjPGVVSacrd

@@ -23,6 +23,6 @@ items:
   name: 资源
   icon_class: fas fa-book
 
-- url: /enroll/
-  name: 报名
-  icon_class: fas fa-book
+# - url: /enroll/
+#   name: 报名
+#   icon_class: fas fa-book
